@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Misael Benaia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- *****************NAVBAR -> Barra de Navegação***************** -->
+    <header class="header">
+        <a href="#" class="logo">Misael Benaia</a>
+        <i class='bx bx-menu' id="menu" style='color:#ffffff'></i>
+        <nav class="navbar">
+            <a href="#home" style="--vlr:1" class="active">Inicio</a>
+            <a href="#about" style="--vlr:2">Sobre</a>
+            <a href="#education" style="--vlr:3">Formação</a>
+            <a href="#skills" style="--vlr:4">Habilidades</a>
+            <a href="#contact" style="--vlr:5">Contato</a>
+        </nav>
+    </header>
+    <!-- *************************Seção: Início************************* -->
+    <section class="home"  id="home">
+        <div class="text-content">
+            <h1>Prazer! Eu sou o Misael,</h1>
+            <div class="text-animation">
+                <h2>Backend Developer</h2>
+            </div>
+    <p>Sou apaixonado por tecnologia e desenvolvimento de soluções robustas. Como desenvolvedor backend, 
+        busco transformar ideias em sistemas funcionais, seguros e eficientes. Tenho experiência em 
+        linguagens como Python, C# e PHP, e estou sempre aprimorando minhas habilidades para entregar o 
+        melhor em cada projeto.</p>
+
+            <div class="btn-section">
+                <button class="btn">Contrate-me</button>
+                <button class="btn">Vamos conversar?</button>
+            </div>
+            <div class="social-media">
+        <a href="https://www.linkedin.com"><i class='bx bxl-linkedin' style="--vlr:7"></i></a>
+        <a href="https://www.facebook.com"><i class='bx bxl-facebook' style="--vlr:8"></i></a>
+        <a href="https://www.instagram.com">  <i class='bx bxl-instagram' style="--vlr:9"></i></a>
+            </div>
+        </div>
+        <img src="Misa.png" alt="">
+    </section>
+    <!-- *************************Seção: Sobre************************* -->
+    <section class="about" id="about">
+        <h2 class="title">Sobre <span>Mim</span></h2>
+        <img src="Misa2.png" alt="" class="aboutImg">
+        <div class="text-content2">
+            <h2>Backend Developer</h2>
+    <p>Atuo como desenvolvedor backend, focando na criação de APIs, integrações entre sistemas e 
+        estruturas de dados otimizadas. Gosto de pensar em soluções escaláveis, que ofereçam boa 
+        performance e sejam fáceis de manter. Tenho perfil analítico e gosto de trabalhar em equipe, 
+        buscando sempre evoluir tecnicamente e colaborar com a qualidade do produto final.</p>
+            <button class="btn">Ler mais</button>
+        </div>
+    </section>
+    <!-- *************************Seção: Formação************************* -->
+    <section class="education" id="education">
+        <h2 class="title">Minha <span>Formação</span></h2>
+        <div class="row">
+            <div class="column">
+                <h2>Colégio Militar de Brasília</h2>
+                <div class="box">
+                    <div class="education-content">
+                        <div class="content">
+    <div class="year">2021-22<i class='bx bxs-calendar'></i></div>
+    <h3>Conquista ou algo relevante 1</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium tenetur enim,
+        deserunt libero quisquam ab eius minus odio quod dicta!</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+        <div class="year">2021-22 <i class='bx bxs-calendar'></i></div>
+                            <h3>Conquista ou algo relevante 2</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium tenetur enim,
+        deserunt libero quisquam ab eius minus odio quod dicta!</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+    <div class="content">
+        <div class="year">2021-22 <i class='bx bxs-calendar'></i></div>
+        <h3>Conquista ou algo relevante 3</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium tenetur enim,
+            deserunt libero quisquam ab eius minus odio quod dicta!</p>
+    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h2>Universidade Federal da Fronteira Sul</h2>
+                <div class="box">
+                    <div class="education-content">
+    <div class="content">
+        <div class="year">2021-22<i class='bx bxs-calendar'></i></div>
+        <h3>Conquista ou algo relevante facul</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium tenetur enim,
+            deserunt libero quisquam ab eius minus odio quod dicta!</p>
+    </div>
+</div>
+                    <div class="education-content">
+    <div class="content">
+        <div class="year">2021-22 <i class='bx bxs-calendar'></i></div>
+    <h3>Monitoria ou projeto 1</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium tenetur enim,
+        deserunt libero quisquam ab eius minus odio quod dicta!</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                <div class="year">2021-22 <i class='bx bxs-calendar'></i></div>
+                            <h3>Monitoria ou projeto 2 ou destaque</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium tenetur enim,
+            deserunt libero quisquam ab eius minus odio quod dicta!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************************Seção: Habilidades************************* -->
+    <section class="skills" id="skills">
+        <h2 class="title">Meus <span>Conhecimentos</span></h2>
+        <div class="wrapper">
+            <div class="skill-content">
+                <h3 class="skill-title">Frontend</h3>
+                <div class="skill-box skill-box1">
+                    <div class="single-skill">
+                        <span class="topic">HTML</span>
+                        <span class="topic">90%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-1"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">CSS</span>
+                        <span class="topic">80%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">JavaScript</span>
+                        <span class="topic">70%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-content">
+                <h3 class="skill-title">Backend</h3>
+                <div class="skill-box skill-box2">
+                    <div class="single-skill">
+                        <span class="topic">Python</span>
+                        <span class="topic">90%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-4"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">C#</span>
+                        <span class="topic">80%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-5"></div>
+                    </div>
+                <div class="single-skill">
+                    <span class="topic">PHP</span>
+                    <span class="topic">70%</span>
+                </div>
+                    <div class="bar-side">
+                        <div class="bar bar-6"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- *************************Seção: Contato************************* -->
+    <section class="contact" id="contact">
+        <h2 class="title">Entre em <span>Contato</span></h2>
+        <form action="#" id="">
+            <div class="input-box">
+    <input type="text" required placeholder="Nome e Sobrenome">
+    <input type="email" required placeholder="E-mail">
+            </div>
+            <div class="input-box">
+    <input type="tel" required placeholder="Telefone - (DDD) 90000-0000">
+    <input type="email" required placeholder="Assunto">
+            </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+    <input type="submit" value="Enviar Mensagem" class="btn">
+        </form>
+
+    </section>
+    <footer>
+        <div class="text">
+            <p>Copyright @ 2025 by Misael Benaia</p>
+        </div>
+       <a href="#"> <i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
